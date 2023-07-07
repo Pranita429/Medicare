@@ -1,0 +1,241 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-06T10:27:23.977Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5222314900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login as an User",
+        "description": "",
+        "id": "login-into-medicare;login-as-an-user",
+        "after": [
+          {
+            "result": {
+              "duration": 261756500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2236923400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the application",
+            "match": {
+              "location": "stepdefs.RegisterStepdf.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3907080800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Login link",
+            "match": {
+              "location": "stepdefs.RegisterStepdf.user_click_on_Login_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4558341600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter Email as \"Sana@gmail.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sana@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepdefs.RegisterStepdf.user_enter_Email_as_and_Password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2438847200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login",
+            "match": {
+              "location": "stepdefs.RegisterStepdf.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354688200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on view Products",
+            "match": {
+              "location": "stepdefs.LoginStepdf.click_on_view_Products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2995600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate Landed on view Products page",
+            "match": {
+              "location": "stepdefs.LoginStepdf.validate_Landed_on_view_Products_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4244811100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Cart icon to add one item to cart and enter the quantity",
+            "match": {
+              "location": "stepdefs.LoginStepdf.click_on_Cart_icon_to_add_one_item_to_cart_and_enter_the_quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77926500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user landed on checkout page",
+            "match": {
+              "location": "stepdefs.LoginStepdf.user_landed_on_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3417826000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on checkout",
+            "match": {
+              "location": "stepdefs.LoginStepdf.click_on_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate User landed on Shipping address page.",
+            "match": {
+              "location": "stepdefs.LoginStepdf.validate_User_landed_on_Shipping_address_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3429814400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click select option",
+            "match": {
+              "location": "stepdefs.LoginStepdf.user_click_select_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Validate landed on Total summary page",
+            "match": {
+              "location": "stepdefs.LoginStepdf.validate_landed_on_Total_summary_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9542451700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Give credit card details",
+            "match": {
+              "location": "stepdefs.LoginStepdf.give_credit_card_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3524432800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on Final payment",
+            "match": {
+              "location": "stepdefs.LoginStepdf.click_on_Final_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validated Order confirmed page",
+            "match": {
+              "location": "stepdefs.LoginStepdf.validated_Order_confirmed_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login into medicare",
+    "description": "",
+    "id": "login-into-medicare",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Loginmedicare.feature",
+    "tags": []
+  }
+]
